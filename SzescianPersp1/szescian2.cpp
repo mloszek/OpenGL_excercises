@@ -102,7 +102,7 @@ void Reshape(int width, int height)
 	// parametry bry³y obcinania
 	if (Aspect == ASPECT_1_1)
 	{
-		// wysokoœæ okna wiêksza od wysokoœci okna
+		// wysokoœæ okna wiêksza od szerokoœci okna
 		if (width < height && width > 0)
 		{
 			glFrustum(-2.0, 2.0, -2.0 * height / width, 2.0 * height / width, 1.0, 5.0);

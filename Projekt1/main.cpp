@@ -10,21 +10,28 @@ enum
 {
 	FULL_WINDOW,
 	ASPECT_1_1,
+	EYES_CENTERED,
+	EYES_FREE,
 	ABOUT,
 	EXIT // wyjœcie
 };
 
 //definicja pola Aspect potrzebnego do przeliczania rozdzielczoœci
-int Aspect = FULL_WINDOW;
+GLint Aspect = FULL_WINDOW;
+
+//definicja pola EyesCentered potrzebnego do ustawiania oczu kamery
+GLboolean EyesCentered = true;
+
+//definicja zmiennej zmieniaj¹cej kolor
+GLfloat MyColorVariable1 = 0.0;
+GLfloat MyColorVariable2 = 90.0;
 
 // wpó³rzêdne po³o¿enia obserwatora
-
 GLdouble eyex = 0;
 GLdouble eyey = 0;
 GLdouble eyez = 3;
 
 // wspó³rzêdne punktu w którego kierunku jest zwrócony obserwator,
-
 GLdouble centerx = 0;
 GLdouble centery = 0;
 GLdouble centerz = -100;
@@ -32,7 +39,7 @@ GLdouble centerz = -100;
 void Display()
 {
 	// kolor t³a - zawartoœæ bufora koloru
-	glClearColor(0, 0, 1.0, 1.0);
+	glClearColor(0, 0, 0, 1.0);
 
 	// czyszczenie bufora koloru
 	glClear(GL_COLOR_BUFFER_BIT);
@@ -44,50 +51,47 @@ void Display()
 	glLoadIdentity();
 
 	// ustawienie obserwatora
-	gluLookAt(eyex, eyey, eyez, centerx, centery, centerz, 0, 1, 0);
+	if (EyesCentered)
+	{
+		gluLookAt(eyex, eyey, eyez, 0, 0, -100, 0, 1, 0);
+	}
+	else
+	{
+		gluLookAt(eyex, eyey, eyez, eyex, eyey, -100, 0, 1, 0);
+	}
 
-	// kolor krawêdzi szeœcianu
-	glColor3f(0.0, 1.0, 0.0);
+	// kolor krawêdzi
+	glColor3f(0.33 * cos(MyColorVariable1 += 0.02) + 0.5, 0.33 * cos(MyColorVariable2 += 0.02) + 0.5, 0.33 * sin(MyColorVariable2 += 0.02) + 0.5);
 
-	// pocz¹tek definicji krawêdzi szeœcianu
 	glBegin(GL_LINES);
 
-	// wspó³rzêdne kolejnych krawêdzi szeœcianu
-	glVertex3f(1.0, 1.0, 1.0);
-	glVertex3f(1.0, -1.0, 1.0);
+	int a = 0;
+	int b = 0;
+	int c = -100;
 
-	glVertex3f(1.0, -1.0, 1.0);
-	glVertex3f(1.0, -1.0, -1.0);
+	while (c < 1)
+	{
+		while (a < 101)
+		{
+			while (b < 101)
+			{
+				glVertex3f(0.0 + b, 1.0 + a, 1.0 + c);
+				glVertex3f(0.0 + b, -1.0 + a, 1.0 + c);
 
-	glVertex3f(1.0, -1.0, -1.0);
-	glVertex3f(1.0, 1.0, -1.0);
+				glVertex3f(0.0 + b, -1.0 + a, 1.0 + c);
+				glVertex3f(2.0 + b, -1.0 + a, 1.0 + c);
 
-	glVertex3f(1.0, 1.0, -1.0);
-	glVertex3f(1.0, 1.0, 1.0);
+				glVertex3f(0.0 + b, -1.0 + a, 1.0 + c);
+				glVertex3f(0.0 + b, -1.0 + a, -1.0 + c);
 
-	glVertex3f(-1.0, 1.0, 1.0);
-	glVertex3f(-1.0, -1.0, 1.0);
-
-	glVertex3f(-1.0, -1.0, 1.0);
-	glVertex3f(-1.0, -1.0, -1.0);
-
-	glVertex3f(-1.0, -1.0, -1.0);
-	glVertex3f(-1.0, 1.0, -1.0);
-
-	glVertex3f(-1.0, 1.0, -1.0);
-	glVertex3f(-1.0, 1.0, 1.0);
-
-	glVertex3f(1.0, 1.0, 1.0);
-	glVertex3f(-1.0, 1.0, 1.0);
-
-	glVertex3f(1.0, -1.0, 1.0);
-	glVertex3f(-1.0, -1.0, 1.0);
-
-	glVertex3f(1.0, -1.0, -1.0);
-	glVertex3f(-1.0, -1.0, -1.0);
-
-	glVertex3f(1.0, 1.0, -1.0);
-	glVertex3f(-1.0, 1.0, -1.0);
+				b += 2;
+			}
+			b = 0;
+			a += 2;
+		}
+		a = 0;
+		c += 2;
+	}
 
 	// koniec definicji prymitywu
 	glEnd();
@@ -117,17 +121,17 @@ void Reshape(int width, int height)
 		// wysokoœæ okna wiêksza od szerokoœci okna
 		if (width < height && width > 0)
 		{
-			glFrustum(-2.0, 2.0, -2.0 * height / width, 2.0 * height / width, 1.0, 10.0);
+			glFrustum(-2.0, 2.0, -2.0 * height / width, 2.0 * height / width, 1.0, 100.0);
 		}
 		// szerokoœæ okna wiêksza lub równa wysokoœci okna
 		else if (width >= height && height > 0)
 		{
-			glFrustum(-2.0 * width / height, 2.0 * width / height, -2.0, 2.0, 1.0, 10.0);
+			glFrustum(-2.0 * width / height, 2.0 * width / height, -2.0, 2.0, 1.0, 100.0);
 		}
 	}
 	else
 	{
-		glFrustum(-2.0, 2.0, -2.0, 2.0, 1.0, 10.0);
+		glFrustum(-2.0, 2.0, -2.0, 2.0, 1.0, 100.0);
 	}
 
 	// generowanie sceny 3D
@@ -166,22 +170,40 @@ void SpecialKeys(int key, int x, int y)
 	{
 		// kursor w lewo
 	case GLUT_KEY_LEFT:
+
 		eyex += 0.1;
+		if (!EyesCentered)
+		{
+			centerx += 0.1;
+		}
 		break;
 
 		// kursor w górê
 	case GLUT_KEY_UP:
 		eyey -= 0.1;
+		if (!EyesCentered)
+		{
+			centery -= 0.1;
+		}
 		break;
 
 		// kursor w prawo
 	case GLUT_KEY_RIGHT:
+
 		eyex -= 0.1;
+		if (!EyesCentered)
+		{
+			centerx -= 0.1;
+		}
 		break;
 
 		// kursor w dó³
 	case GLUT_KEY_DOWN:
 		eyey += 0.1;
+		if (!EyesCentered)
+		{
+			centery += 0.1;
+		}
 		break;
 	}
 
@@ -204,6 +226,20 @@ void Menu(int value)
 		// obszar renderingu - aspekt 1:1
 	case ASPECT_1_1:
 		Aspect = ASPECT_1_1;
+		Beep(500, 300);
+		Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
+		break;
+
+		// oczy zablokowane na punkcie (0, 0, -100)
+	case EYES_CENTERED:
+		EyesCentered = true;
+		Beep(500, 300);
+		Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
+		break;
+
+		// oczy skierowane przed siebie
+	case EYES_FREE:
+		EyesCentered = false;
 		Beep(500, 300);
 		Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
 		break;
@@ -233,7 +269,7 @@ int main(int argc, char * argv[])
 	glutInitWindowSize(400, 400);
 
 	// utworzenie g³ównego okna programu
-	glutCreateWindow("Szescian 4");
+	glutCreateWindow("Lazerhawk 666");
 
 	// do³¹czenie funkcji generuj¹cej scenê 3D
 	glutDisplayFunc(Display);
@@ -255,12 +291,16 @@ int main(int argc, char * argv[])
 
 	glutAddMenuEntry("Obszar renderingu - cale okno", FULL_WINDOW);
 	glutAddMenuEntry("Obszar renderingu - aspekt 1:1", ASPECT_1_1);
+	glutAddMenuEntry("Oczy zablokowane na punkcie w dali", EYES_CENTERED);
+	glutAddMenuEntry("Oczy skierowane przed siebie", EYES_FREE);
 	glutAddMenuEntry("About", ABOUT);
 	glutAddMenuEntry("Exit", EXIT);
 #else
 
 	glutAddMenuEntry("Obszar renderingu - cale okno", FULL_WINDOW);
 	glutAddMenuEntry("Obszar renderingu - aspekt 1:1", ASPECT_1_1);
+	glutAddMenuEntry("Oczy zablokowane na punkcie w dali", EYES_CENTERED);
+	glutAddMenuEntry("Oczy skierowane przed siebie", EYES_FREE);
 	glutAddMenuEntry("About", ABOUT);
 	glutAddMenuEntry("Exit", EXIT);
 #endif
