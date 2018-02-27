@@ -258,7 +258,8 @@ void Menu(int value)
 }
 
 int main(int argc, char * argv[])
-{
+{ 
+
 	// inicjalizacja biblioteki GLUT
 	glutInit(&argc, argv);
 
@@ -285,6 +286,8 @@ int main(int argc, char * argv[])
 
 	// utworzenie menu podrêcznego
 	glutCreateMenu(Menu);
+
+	
 
 	// dodatnie pozycji do menu podrêcznego
 #ifdef WIN32

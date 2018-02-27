@@ -20,7 +20,7 @@ int Aspect = FULL_WINDOW;
 void Display()
 {
 	// kolor t³a - zawartoœæ bufora koloru
-	glClearColor(1.0, 1.0, 1.0, 1.0);
+	glClearColor(0, 0, 0, 0);
 
 	// czyszczenie bufora koloru
 	glClear(GL_COLOR_BUFFER_BIT);
@@ -31,48 +31,58 @@ void Display()
 	// macierz modelowania = macierz jednostkowa
 	glLoadIdentity();
 
+	// obrót szeœcianu
+	/*glRotated(15, 0, 1, 0);
+	glRotated(15, 1, 0, 0);*/
+
 	// kolor krawêdzi szeœcianu
 	glColor3f(1.0, 0.0, 0.0);
 
 	// pocz¹tek definicji krawêdzi szeœcianu
 	glBegin(GL_LINES);
 
-	// wspó³rzêdne kolejnych krawêdzi szeœcianu
-	glVertex3f(1.0, 1.0, 1.0);
-	glVertex3f(1.0, -1.0, 1.0);
+	GLfloat a = 0;
 
-	glVertex3f(1.0, -1.0, 1.0);
-	glVertex3f(1.0, -1.0, -1.0);
+	while (a < 1)
+	{
+		glVertex3f(1.0 - a, 1.0 - a, 1.0 - a);
+		glVertex3f(1.0 - a, -1.0 + a, 1.0 - a);
 
-	glVertex3f(1.0, -1.0, -1.0);
-	glVertex3f(1.0, 1.0, -1.0);
+		glVertex3f(1.0 - a, -1.0 + a, 1.0 - a);
+		glVertex3f(1.0 - a, -1.0 + a, -1.0 + a);
 
-	glVertex3f(1.0, 1.0, -1.0);
-	glVertex3f(1.0, 1.0, 1.0);
+		glVertex3f(1.0 - a, -1.0 + a, -1.0 + a);
+		glVertex3f(1.0 - a, 1.0 - a, -1.0 + a);
 
-	glVertex3f(-1.0, 1.0, 1.0);
-	glVertex3f(-1.0, -1.0, 1.0);
+		glVertex3f(1.0 - a, 1.0 - a, -1.0 + a);
+		glVertex3f(1.0 - a, 1.0 - a, 1.0 - a);
 
-	glVertex3f(-1.0, -1.0, 1.0);
-	glVertex3f(-1.0, -1.0, -1.0);
+		glVertex3f(-1.0 + a, 1.0 - a, 1.0 - a);
+		glVertex3f(-1.0 + a, -1.0 + a, 1.0 - a);
 
-	glVertex3f(-1.0, -1.0, -1.0);
-	glVertex3f(-1.0, 1.0, -1.0);
+		glVertex3f(-1.0 + a, -1.0 + a, 1.0 - a);
+		glVertex3f(-1.0 + a, -1.0 + a, -1.0 + a);
 
-	glVertex3f(-1.0, 1.0, -1.0);
-	glVertex3f(-1.0, 1.0, 1.0);
+		glVertex3f(-1.0 + a, -1.0 + a, -1.0 + a);
+		glVertex3f(-1.0 + a, 1.0 - a, -1.0 + a);
 
-	glVertex3f(1.0, 1.0, 1.0);
-	glVertex3f(-1.0, 1.0, 1.0);
+		glVertex3f(-1.0 + a, 1.0 - a, -1.0 + a);
+		glVertex3f(-1.0 + a, 1.0 - a, 1.0 - a);
 
-	glVertex3f(1.0, -1.0, 1.0);
-	glVertex3f(-1.0, -1.0, 1.0);
+		glVertex3f(1.0 - a, 1.0 - a, 1.0 - a);
+		glVertex3f(-1.0 + a, 1.0 - a, 1.0 - a);
 
-	glVertex3f(1.0, -1.0, -1.0);
-	glVertex3f(-1.0, -1.0, -1.0);
+		glVertex3f(1.0 - a, -1.0 + a, 1.0 - a);
+		glVertex3f(-1.0 + a, -1.0 + a, 1.0 - a);
 
-	glVertex3f(1.0, 1.0, -1.0);
-	glVertex3f(-1.0, 1.0, -1.0);
+		glVertex3f(1.0 - a, -1.0 + a, -1.0 + a);
+		glVertex3f(-1.0 + a, -1.0 + a, -1.0 + a);
+
+		glVertex3f(1.0 - a, 1.0 - a, -1.0 + a);
+		glVertex3f(-1.0 + a, 1.0 - a, -1.0 + a);
+
+		a += 0.01;
+	}
 
 	// koniec definicji prymitywu
 	glEnd();
@@ -124,6 +134,16 @@ void AboutInfo()
 {
 	MessageBox(nullptr, TEXT("I am about to take a shit"), TEXT("About"), MB_OK);
 	Beep(500, 300);
+}
+
+void Keyboard(unsigned char key, int x, int y)
+{
+	if (key == '+')
+	{
+		//TODO
+	}
+
+		Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
 }
 
 // obs³uga menu podrêcznego

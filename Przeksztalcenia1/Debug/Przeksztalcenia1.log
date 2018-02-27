@@ -1,0 +1,6 @@
+﻿  przeksztalcenia.cpp
+c:\users\milosz\source\repos\opengltut\przeksztalcenia1\przeksztalcenia.cpp(190): warning C4305: "+=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\przeksztalcenia1\przeksztalcenia.cpp(195): warning C4305: "-=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\przeksztalcenia1\przeksztalcenia.cpp(254): warning C4244: "+=": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\przeksztalcenia1\przeksztalcenia.cpp(256): warning C4244: "+=": konwersja z "double" do "GLfloat", możliwa utrata danych
+  Przeksztalcenia1.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\Przeksztalcenia1.exe
