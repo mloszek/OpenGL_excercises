@@ -5,17 +5,27 @@
 
 using namespace std;
 
+//TODO: dodac strzalki do przesuwania
+
 // sta³e do obs³ugi menu podrêcznego
 enum
 {
 	FULL_WINDOW,
 	ASPECT_1_1,
+	RESET_VIEW,
 	ABOUT,
 	EXIT // wyjœcie
 };
 
-//definicja pola Aspect potrzebnego do przeliczania rozdzielczoœci
-int Aspect = FULL_WINDOW;
+// definicja pola Aspect potrzebnego do przeliczania rozdzielczoœci
+GLint Aspect = FULL_WINDOW;
+
+// definicja zmiennej potrzebnej do skalowania
+GLfloat myScale = 1;
+
+// definicja zmiennych do obrotu szeœcianu
+GLfloat rotAngleX = 0;
+GLfloat rotAngleY = 0;
 
 void Display()
 {
@@ -31,9 +41,12 @@ void Display()
 	// macierz modelowania = macierz jednostkowa
 	glLoadIdentity();
 
-	// obrót szeœcianu
-	/*glRotated(15, 0, 1, 0);
-	glRotated(15, 1, 0, 0);*/
+	// obracanie
+	glRotatef(rotAngleX, 1, 0, 0);
+	glRotatef(rotAngleY, 0, 1, 0);
+
+	// skalowanie
+	glScalef(myScale, myScale, myScale);
 
 	// kolor krawêdzi szeœcianu
 	glColor3f(1.0, 0.0, 0.0);
@@ -136,14 +149,50 @@ void AboutInfo()
 	Beep(500, 300);
 }
 
+// metoda resetuj¹ca pozycjê
+void ResetView()
+{
+	rotAngleX = 0;
+	rotAngleY = 0;
+	myScale = 1;
+}
+
 void Keyboard(unsigned char key, int x, int y)
 {
 	if (key == '+')
 	{
-		//TODO
+		myScale *= 1.05;
+	}
+	else if (key == '-')
+	{
+		myScale /= 1.05;
 	}
 
-		Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
+	Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
+}
+
+void SpecialKeys(int key, int x, int y)
+{
+	switch (key)
+	{
+	case GLUT_KEY_UP:
+		rotAngleX += 1;
+		break;
+
+	case GLUT_KEY_DOWN:
+		rotAngleX -= 1;
+		break;
+
+	case GLUT_KEY_LEFT:
+		rotAngleY += 1;
+		break;
+
+	case GLUT_KEY_RIGHT:
+		rotAngleY -= 1;
+		break;
+	}
+
+	Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
 }
 
 // obs³uga menu podrêcznego
@@ -165,7 +214,14 @@ void Menu(int value)
 		Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
 		break;
 
-		//About
+		// reset rotacji
+	case RESET_VIEW:
+		Beep(500, 300);
+		ResetView();
+		Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
+		break;
+
+		// About
 	case ABOUT:
 		Beep(500, 300);
 		AboutInfo();
@@ -198,23 +254,21 @@ int main(int argc, char * argv[])
 	// do³¹czenie funkcji wywo³ywanej przy zmianie rozmiaru okna
 	glutReshapeFunc(Reshape);
 
+	// do³¹czenie funkcji obs³ugi klawiatury
+	glutKeyboardFunc(Keyboard);
+
+	// do³¹czenie sterowania strza³kami
+	glutSpecialFunc(SpecialKeys);
+
 	// utworzenie menu podrêcznego
 	glutCreateMenu(Menu);
 
 	// dodatnie pozycji do menu podrêcznego
-#ifdef WIN32
-
 	glutAddMenuEntry("Obszar renderingu - cale okno", FULL_WINDOW);
 	glutAddMenuEntry("Obszar renderingu - aspekt 1:1", ASPECT_1_1);
+	glutAddMenuEntry("Reset widoku", RESET_VIEW);
 	glutAddMenuEntry("About", ABOUT);
 	glutAddMenuEntry("Exit", EXIT);
-#else
-
-	glutAddMenuEntry("Obszar renderingu - cale okno", FULL_WINDOW);
-	glutAddMenuEntry("Obszar renderingu - aspekt 1:1", ASPECT_1_1);
-	glutAddMenuEntry("About", ABOUT);
-	glutAddMenuEntry("Exit", EXIT);
-#endif
 
 	// okreœlenie przycisku myszki obs³uguj¹cej menu podrêczne
 	glutAttachMenu(GLUT_RIGHT_BUTTON);

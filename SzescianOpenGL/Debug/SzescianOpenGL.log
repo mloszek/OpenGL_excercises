@@ -1,27 +1,29 @@
 ﻿  szescian.cpp
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(48): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(49): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(51): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(52): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(54): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(55): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(57): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(58): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(60): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
 c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(61): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(63): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(62): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
 c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(64): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(66): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(65): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
 c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(67): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(69): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(68): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
 c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(70): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(72): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(71): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
 c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(73): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(75): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(74): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
 c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(76): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(78): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(77): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
 c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(79): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(81): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(80): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
 c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(82): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(84): warning C4305: "+=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(83): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(85): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(86): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(88): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(89): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(91): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(92): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(94): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(95): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(97): warning C4305: "+=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(164): warning C4305: "*=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\szescianopengl\szescian.cpp(168): warning C4305: "/=": obcięcie z "double" do "GLfloat"
   SzescianOpenGL.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\SzescianOpenGL.exe
