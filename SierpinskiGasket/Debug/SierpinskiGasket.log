@@ -1,0 +1,8 @@
+﻿  sierpinski.cpp
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(55): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(55): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(57): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(57): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(133): warning C4305: "+=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(137): warning C4305: "-=": obcięcie z "double" do "GLfloat"
+  SierpinskiGasket.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\SierpinskiGasket.exe

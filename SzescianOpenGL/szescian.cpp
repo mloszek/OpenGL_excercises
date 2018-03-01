@@ -21,7 +21,7 @@ enum
 GLint Aspect = FULL_WINDOW;
 
 // definicja zmiennej potrzebnej do skalowania
-GLfloat myScale = 1;
+GLfloat scale = 1;
 
 // definicja zmiennych do obrotu szeœcianu
 GLfloat rotAngleX = 0;
@@ -46,7 +46,7 @@ void Display()
 	glRotatef(rotAngleY, 0, 1, 0);
 
 	// skalowanie
-	glScalef(myScale, myScale, myScale);
+	glScalef(scale, scale, scale);
 
 	// kolor krawêdzi szeœcianu
 	glColor3f(1.0, 0.0, 0.0);
@@ -154,18 +154,18 @@ void ResetView()
 {
 	rotAngleX = 0;
 	rotAngleY = 0;
-	myScale = 1;
+	scale = 1;
 }
 
 void Keyboard(unsigned char key, int x, int y)
 {
 	if (key == '+')
 	{
-		myScale *= 1.05;
+		scale *= 1.05;
 	}
 	else if (key == '-')
 	{
-		myScale /= 1.05;
+		scale /= 1.05;
 	}
 
 	Reshape(glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
