@@ -1,1 +1,6 @@
-﻿  SierpinskiGasket.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\SierpinskiGasket.exe
+﻿  sierpinski.cpp
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(42): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(42): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(44): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskigasket\sierpinski.cpp(44): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  SierpinskiGasket.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\SierpinskiGasket.exe
