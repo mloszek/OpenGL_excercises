@@ -1,2 +1,20 @@
 ﻿  dywan.cpp
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(19): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(20): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(21): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(22): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(32): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(33): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(34): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(35): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(157): warning C4305: "+=": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(161): warning C4305: "-=": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(172): warning C4305: "-=": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(173): warning C4305: "-=": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(177): warning C4305: "+=": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(178): warning C4305: "+=": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(182): warning C4305: "+=": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(183): warning C4305: "+=": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(187): warning C4305: "-=": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskicarpet\dywan.cpp(188): warning C4305: "-=": obcięcie z "double" do "float"
   SierpinskiCarpet.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\SierpinskiCarpet.exe

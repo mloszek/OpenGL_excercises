@@ -39,16 +39,13 @@ void drawShape(float vertex1[], float vertex2[], float vertex3[], int currentDep
 
 void Display()
 {
-	float vertex1[3] = { 2.0 * scale, 0.0, 0.0 };
+	float vertex1[3] = { 2.0f * scale, 0.0, 0.0 };
 	float vertex2[3] = { 0.0, 0.0, 0.0 };
-	float vertex3[3] = { 1.0 * scale, 1.7 * scale, 0.0 };
+	float vertex3[3] = { 1.0f * scale, 1.7f * scale, 0.0 };
 
 	glClearColor(0.0, 0.0, 0.0, 1.0);
-
 	glClear(GL_COLOR_BUFFER_BIT);
-
 	glColor3f(1.0, 1.0, 1.0);
-
 	glMatrixMode(GL_MODELVIEW);
 
 	drawShape(vertex1, vertex2, vertex3, 0);
