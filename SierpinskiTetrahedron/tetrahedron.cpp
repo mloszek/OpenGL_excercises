@@ -25,6 +25,10 @@ GLfloat rotatez = 0.0;
 GLfloat translatex = 0.0;
 GLfloat translatey = 0.0;
 
+GLdouble eyesx = 0;
+GLdouble eyesy = 0;
+GLdouble eyesz = 3;
+
 GLuint depth = 1;
 
 void drawTetrahedron(float vertex1[], float vertex2[], float vertex3[], float vertex4[], int currentDepth)
@@ -83,16 +87,20 @@ void Display()
 {
 	glClearDepth(1.0f);
 	glEnable(GL_DEPTH_TEST);
+	glEnable(GL_MULTISAMPLE);
 	glDepthFunc(GL_LEQUAL);
-	glClearColor(0.0, 0.0, 0.0, 1.0);
+
+
+	glClearColor(0.8, 0.9, 1, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 
-	glTranslatef(0.0, 0.0, -3);
+	gluLookAt(eyesx, eyesy, eyesz, 0.0, 0.0, -3, 0, 1, 0);
+
+	glTranslatef(0.0, 0.0, -3);	
 	glScalef(scale, scale, scale);
-	glRotatef(rotatex, 1, 0, 0);
-	glRotatef(rotatey, 0, 1, 0);
+	
 
 	float vertex1[3] = { 0.0, -0.433, 0.433 };
 	float vertex2[3] = { 0.5, -0.433, -0.433 };
@@ -100,9 +108,8 @@ void Display()
 	float vertex4[3] = { 0.0, 0.433, 0 };
 
 	drawTetrahedron(vertex1, vertex2, vertex3, vertex4, 1);
-	
 
-	for (unsigned int i = 1; i < 3; i++)
+	for (unsigned int i = 1; i < 20; i++)
 	{
 		glPushMatrix();
 		glTranslatef((0.5 * i), 0, (-0.866 * i));
@@ -153,7 +160,7 @@ void Reshape(int width, int height)
 		}
 		else if (width >= height && height > 0)
 		{
-			glFrustum(-2.0 * width / height, 2.0 * width / height, -2.0, 2.0, 1.0, 100);
+			glFrustum(-2.0 * width / height, 2.0 * width / height, -2.0, 2.0, 1, 100);
 		}
 	}
 	else
@@ -191,16 +198,16 @@ void SpecialKeys(int key, int x, int y)
 	switch (key)
 	{
 	case GLUT_KEY_LEFT:
-		rotatey -= 1;
+		eyesx -= 0.1;
 		break;
 	case GLUT_KEY_UP:
-		rotatex -= 1;
+		eyesy -= 0.1;
 		break;
 	case GLUT_KEY_RIGHT:
-		rotatey += 1;
+		eyesx += 0.1; 
 		break;
 	case GLUT_KEY_DOWN:
-		rotatex += 1;
+		eyesy += 0.1;
 		break;
 	}
 
@@ -236,10 +243,10 @@ int main(int argc, char * argv[])
 {
 	glutInit(&argc, argv);
 
-	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_MULTISAMPLE);
 
 	glutInitWindowSize(600, 600);
-
+	
 	glutCreateWindow("Tetrahedron 666");
 
 	glutDisplayFunc(Display);

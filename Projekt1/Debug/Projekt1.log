@@ -1,10 +1,1 @@
-﻿  main.cpp
-c:\users\milosz\source\repos\opengltut\projekt1\main.cpp(64): warning C4305: "+=": obcięcie z "double" do "GLfloat"
-c:\users\milosz\source\repos\opengltut\projekt1\main.cpp(64): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\projekt1\main.cpp(78): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\projekt1\main.cpp(79): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\projekt1\main.cpp(81): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\projekt1\main.cpp(82): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\projekt1\main.cpp(84): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\projekt1\main.cpp(85): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-  Projekt1.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\Projekt1.exe
+﻿C:\Users\milosz\source\repos\OpenGLTut\Projekt1\Projekt1.vcxproj : error MSB4057: Element docelowy „Deploy” nie istnieje w projekcie.
