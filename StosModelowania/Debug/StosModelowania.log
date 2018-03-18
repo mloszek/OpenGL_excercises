@@ -1,1 +1,6 @@
-﻿  StosModelowania.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\StosModelowania.exe
+﻿  stosModelowania.cpp
+c:\users\milosz\source\repos\opengltut\stosmodelowania\stosmodelowania.cpp(193): warning C4305: "+=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\stosmodelowania\stosmodelowania.cpp(197): warning C4305: "-=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\stosmodelowania\stosmodelowania.cpp(266): warning C4244: "+=": konwersja z "GLdouble" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\stosmodelowania\stosmodelowania.cpp(267): warning C4244: "+=": konwersja z "GLdouble" do "GLfloat", możliwa utrata danych
+  StosModelowania.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\StosModelowania.exe

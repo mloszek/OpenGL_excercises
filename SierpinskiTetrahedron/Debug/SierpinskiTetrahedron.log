@@ -1,0 +1,15 @@
+﻿  tetrahedron.cpp
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(32): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(97): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(97): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(98): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(98): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(99): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(99): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(100): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(100): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(108): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(112): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(171): warning C4305: "+=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(175): warning C4305: "-=": obcięcie z "double" do "GLfloat"
+  SierpinskiTetrahedron.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\SierpinskiTetrahedron.exe
