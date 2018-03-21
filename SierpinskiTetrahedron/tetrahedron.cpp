@@ -2,7 +2,6 @@
 #include <GL\freeglut.h>
 #include <stdlib.h>
 #include <iostream>
-#include <queue>
 
 using namespace std;
 
@@ -30,6 +29,11 @@ GLdouble eyesy = 0;
 GLdouble eyesz = 3;
 
 GLuint depth = 1;
+
+GLfloat ambient_light[4] =
+{
+	1, 1, 1, 1.0
+};
 
 void drawTetrahedron(float vertex1[], float vertex2[], float vertex3[], float vertex4[], int currentDepth)
 {
@@ -87,8 +91,13 @@ void Display()
 {
 	glClearDepth(1.0f);
 	glEnable(GL_DEPTH_TEST);
-	glEnable(GL_MULTISAMPLE);
-	glDepthFunc(GL_LEQUAL);
+	
+	glEnable(GL_LIGHTING);
+	glLightModelfv(GL_LIGHT_MODEL_AMBIENT, ambient_light);
+
+	glEnable(GL_COLOR_MATERIAL);
+
+	glColorMaterial(GL_FRONT, GL_AMBIENT);
 
 
 	glClearColor(0.8, 0.9, 1, 1.0);
@@ -99,8 +108,7 @@ void Display()
 	gluLookAt(eyesx, eyesy, eyesz, 0.0, 0.0, -3, 0, 1, 0);
 
 	glTranslatef(0.0, 0.0, -3);	
-	glScalef(scale, scale, scale);
-	
+	glScalef(scale, scale, scale);	
 
 	float vertex1[3] = { 0.0, -0.433, 0.433 };
 	float vertex2[3] = { 0.5, -0.433, -0.433 };
@@ -245,7 +253,7 @@ int main(int argc, char * argv[])
 
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_MULTISAMPLE);
 
-	glutInitWindowSize(600, 600);
+	glutInitWindowSize(1440, 900);
 	
 	glutCreateWindow("Tetrahedron 666");
 

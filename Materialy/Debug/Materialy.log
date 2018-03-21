@@ -1,0 +1,133 @@
+﻿  materialy.cpp
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(11): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(11): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(16): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(16): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(21): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(21): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(23): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(30): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(30): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(35): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(35): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(40): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(40): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(42): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(49): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(49): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(54): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(54): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(59): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(59): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(61): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(73): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(73): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(78): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(78): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(80): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(87): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(87): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(92): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(92): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(97): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(97): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(99): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(106): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(106): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(111): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(111): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(116): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(116): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(118): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(125): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(125): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(130): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(130): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(135): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(135): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(137): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(144): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(144): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(149): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(149): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(154): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(154): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(156): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(163): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(163): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(168): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(168): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(173): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(173): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(175): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(182): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(182): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(187): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(187): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(192): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(192): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(194): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(201): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(201): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(206): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(206): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(211): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(211): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(213): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(220): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(220): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(225): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(225): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(230): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(230): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(232): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(239): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(239): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(244): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(244): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(249): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(249): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(251): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(258): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(258): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(263): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(263): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(268): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(268): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(270): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(277): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(277): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(282): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(282): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(287): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(287): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(289): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(296): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(296): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(301): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(301): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(306): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(306): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(308): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(315): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(315): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(320): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(320): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(325): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(325): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(327): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(339): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(339): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(353): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(353): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(358): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(358): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(363): warning C4838: konwersja z „double” do „const GLfloat” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\materialy\materials.h(363): warning C4305: "inicjowanie": obcięcie z "double" do "const GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materialy.cpp(87): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materialy.cpp(242): warning C4244: "argument": konwersja z "const GLdouble" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\materialy\materialy.cpp(290): warning C4305: "+=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materialy.cpp(295): warning C4305: "-=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\materialy\materialy.cpp(325): warning C4244: "+=": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\materialy\materialy.cpp(327): warning C4244: "-=": konwersja z "double" do "GLfloat", możliwa utrata danych
+  Materialy.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\Materialy.exe

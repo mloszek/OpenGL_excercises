@@ -1,16 +1,16 @@
 ﻿  tetrahedron.cpp
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(36): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(94): warning C4305: "argument": obcięcie z "double" do "GLclampf"
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(105): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(105): warning C4305: "inicjowanie": obcięcie z "double" do "float"
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(106): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(106): warning C4305: "inicjowanie": obcięcie z "double" do "float"
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(107): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(107): warning C4305: "inicjowanie": obcięcie z "double" do "float"
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(108): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(108): warning C4305: "inicjowanie": obcięcie z "double" do "float"
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(115): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(119): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(178): warning C4305: "+=": obcięcie z "double" do "GLfloat"
-c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(182): warning C4305: "-=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(40): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(103): warning C4305: "argument": obcięcie z "double" do "GLclampf"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(113): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(113): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(114): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(114): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(115): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(115): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(116): warning C4838: konwersja z „double” do „float” wymaga konwersji zawężającej
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(116): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(123): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(127): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(186): warning C4305: "+=": obcięcie z "double" do "GLfloat"
+c:\users\milosz\source\repos\opengltut\sierpinskitetrahedron\tetrahedron.cpp(190): warning C4305: "-=": obcięcie z "double" do "GLfloat"
   SierpinskiTetrahedron.vcxproj -> C:\Users\milosz\source\repos\OpenGLTut\Debug\SierpinskiTetrahedron.exe
